@@ -1,0 +1,16 @@
+package: github.com/erans/microstripe
+import:
+- package: github.com/stripe/stripe-go
+  version: ^24.2.0
+- package: github.com/pkg/errors
+  version: ^0.8.0
+- package: github.com/labstack/echo
+  version: ^3.2.1
+  subpackages:
+  - '...'
+- package: gopkg.in/alecthomas/kingpin.v2
+  version: ^2.2.5
+- package: github.com/alecthomas/template
+- package: github.com/alecthomas/units
+- package: github.com/dgrijalva/jwt-go
+  version: ^3.0.0
